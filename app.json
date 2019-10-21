@@ -1,5 +1,9 @@
 {
-  "pages": ["pages/message/message", "pages/contact/contact"],
+  "pages": [
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/dynamic/dynamic"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -23,6 +27,12 @@
         "iconPath": "images/tab_contact_normal.png",
         "selectedIconPath": "images/tab_contact_selected.png",
         "text": "联系人"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "images/tab_dynamic_normal.png",
+        "selectedIconPath": "images/tab_dynamic_selected.png",
+        "text": "动态"
       }
     ]
   },
